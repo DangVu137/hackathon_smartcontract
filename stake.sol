@@ -182,3 +182,14 @@ contract StakeMaster {
         );
     }
 }
+/
+     * @notice Receive native token
+     */
+    fallback() external payable {
+    }
+
+    /
+     * @notice Receive native token
+     */
+    receive() external payable {
+    }
