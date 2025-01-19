@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_data",
+						"type": "uint256"
+					}
+				],
+				"name": "setData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StakeSmarter/stake.sol": "IContractB"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StakeSmarter/stake.sol": {
+			"keccak256": "0xb0331a0eab161cfd2d160978dddb7a3ed4da61d3d5bf2598d154e192a94b9310",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b725b82916f4d95aa1d85c813eef7c8ba3eccd438642458cb921d5a0e45f3334",
+				"dweb:/ipfs/QmSxVDt3RDfo2fkETueEbnt4cMRkCHrK7tPQ9H8yqs8PhV"
+			]
+		}
+	},
+	"version": 1
+}

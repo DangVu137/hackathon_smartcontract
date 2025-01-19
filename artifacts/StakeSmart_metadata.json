@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StakeSmarter/stake.sol": "StakeSmart"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StakeSmarter/stake.sol": {
+			"keccak256": "0xad3ad2cd9e43b59458439e2543961bd928071417b0097f3c69e062c6fa32b3e8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f0c6c04b29e793fc955b977e95efa0dd8dcea028002fe82d942a0e59a2e0387f",
+				"dweb:/ipfs/QmbivHSNCYxer9Zr5h3ezXxLJP3znaGBUHGFB9KCCm6NYD"
+			]
+		}
+	},
+	"version": 1
+}

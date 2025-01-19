@@ -1,0 +1,73 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {
+				"@_9": {
+					"entryPoint": null,
+					"id": 9,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b5060006002905050603f8060246000396000f3fe6080604052600080fdfea26469706673582212202f963ea14f175905b33c1b29a300f20a2e4ad7e133fa8fe998a5088d79c182e564736f6c63430008130033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x0 PUSH1 0x2 SWAP1 POP POP PUSH1 0x3F DUP1 PUSH1 0x24 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x2F SWAP7 RETURNDATACOPY LOG1 0x4F OR MSIZE SDIV 0xB3 EXTCODECOPY SHL 0x29 LOG3 STOP CALLCODE EXP 0x2E 0x4A 0xD7 0xE1 CALLER STATICCALL DUP16 0xE9 SWAP9 0xA5 ADDMOD DUP14 PUSH26 0xC182E564736F6C63430008130033000000000000000000000000 ",
+			"sourceMap": "58:68:0:-:0;;;84:40;;;;;;;;;;104:9;116:1;104:13;;97:27;58:68;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052600080fdfea26469706673582212202f963ea14f175905b33c1b29a300f20a2e4ad7e133fa8fe998a5088d79c182e564736f6c63430008130033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x2F SWAP7 RETURNDATACOPY LOG1 0x4F OR MSIZE SDIV 0xB3 EXTCODECOPY SHL 0x29 LOG3 STOP CALLCODE EXP 0x2E 0x4A 0xD7 0xE1 CALLER STATICCALL DUP16 0xE9 SWAP9 0xA5 ADDMOD DUP14 PUSH26 0xC182E564736F6C63430008130033000000000000000000000000 ",
+			"sourceMap": "58:68:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "79",
+				"totalCost": "12679"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		}
+	]
+}

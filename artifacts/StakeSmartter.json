@@ -1,0 +1,73 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {
+				"@_9": {
+					"entryPoint": null,
+					"id": 9,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b5060006002905050603f8060246000396000f3fe6080604052600080fdfea26469706673582212209a942abecf2058761ea1394b570ef533770500bca5d8e2e44b52bbd39269839c64736f6c63430008130033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x0 PUSH1 0x2 SWAP1 POP POP PUSH1 0x3F DUP1 PUSH1 0x24 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP11 SWAP5 0x2A 0xBE 0xCF KECCAK256 PC PUSH23 0x1EA1394B570EF533770500BCA5D8E2E44B52BBD3926983 SWAP13 PUSH5 0x736F6C6343 STOP ADDMOD SGT STOP CALLER ",
+			"sourceMap": "58:71:0:-:0;;;87:40;;;;;;;;;;107:9;119:1;107:13;;100:27;58:71;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052600080fdfea26469706673582212209a942abecf2058761ea1394b570ef533770500bca5d8e2e44b52bbd39269839c64736f6c63430008130033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP11 SWAP5 0x2A 0xBE 0xCF KECCAK256 PC PUSH23 0x1EA1394B570EF533770500BCA5D8E2E44B52BBD3926983 SWAP13 PUSH5 0x736F6C6343 STOP ADDMOD SGT STOP CALLER ",
+			"sourceMap": "58:71:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "79",
+				"totalCost": "12679"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		}
+	]
+}

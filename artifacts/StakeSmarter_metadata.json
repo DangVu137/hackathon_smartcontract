@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contractStake",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "contractStake",
+				"outputs": [
+					{
+						"internalType": "contract IContractStake",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_data",
+						"type": "uint256"
+					}
+				],
+				"name": "stake",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StakeSmarter/stake.sol": "StakeSmarter"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StakeSmarter/stake.sol": {
+			"keccak256": "0x29f43d31723a29d29c8732423d88e88a067f4c4b3ae8ef569149ea68d9119dbc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b7dc12d479e4a1406c98ffd5dad594d6ca4225b9286fc2e65f4fee013c5b0958",
+				"dweb:/ipfs/QmWkUGmChxjysjgZwiH4aGAyarX1Ta3hSRh2htCB1SQVCU"
+			]
+		}
+	},
+	"version": 1
+}
